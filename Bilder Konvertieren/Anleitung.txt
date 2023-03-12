@@ -1,0 +1,29 @@
+Anleitung Bilder Konvertieren:
+Bilder müssen als PNG abgespeichert sein!
+
+
+
+Bilder konvertieren für die volle Screengrösse (296*128 Pixel):
+1. Thonny Software öffnen
+2. Lokal Python unten rechts auswählen
+3. Tools -> Manage Packages -> Search -> Pillow installieren (Falls nicht schon gemacht)
+4. Links in den Ordner gehen wo das Script "Convert.py" und die Bild-Datei liegt
+5. Rechtsklick auf diesen Ordner -> "Focus on this"
+6. Unten im Terminal folgendes eingeben:
+%Run convert.py --resize --binary image_file_1.png
+7. Enter klicken
+
+
+
+Bilder konvertieren für badge (104*128 Pixel):
+1. Photoshop Elements öffnen -> Neu -> Pixel Höhe 128 / Pixel Breite 104
+2. Bild reinziehen und strecken allenfalls
+3. Speichern im Ordner mit "Convert.py" Script als PNG
+4. Thonny Software öffnen
+5. Lokal Python unten rechts auswählen
+6. Tools -> Manage Packages -> Search -> Pillow installieren (Falls nicht schon gemacht)
+7. Links in den Ordner gehen wo das Script "Convert.py" und die Bild-Datei liegt
+8. Rechtsklick auf diesen Ordner -> "Focus on this"
+9. Unten im Terminal folgendes eingeben:
+%Run convert.py --binary badge-image.png
+10. Enter klicken
