@@ -7,6 +7,7 @@ Personal badge for professional events
 
 
 For more information look here:
+
 https://learn.pimoroni.com/article/getting-started-with-badger-2040
 
 https://www.printables.com/de/model/274782-badger-cover-for-badger-2040
